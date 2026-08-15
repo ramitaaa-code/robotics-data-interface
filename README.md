@@ -19,13 +19,11 @@ The ROS 2 worker runs separately from the GUI so `rclpy.spin()` does not block t
 
 ## ROS 2 Topics
 
-| Topic        | Type                  | Purpose                      |
-| `/telemetry` | `std_msgs/msg/String` | Battery, velocity and status |
-| `/cmd_start` | `std_msgs/msg/Empty`  | Start robot                  |
-| `/cmd_stop`  | `std_msgs/msg/Empty`  | Stop robot                   |
+- `/telemetry` — `std_msgs/msg/String` — Battery, velocity and robot status
+- `/cmd_start` — `std_msgs/msg/Empty` — Start the simulated robot
+- `/cmd_stop` — `std_msgs/msg/Empty` — Stop the simulated robot
 
 Telemetry format:
-
 `battery=98.50,velocity=1.25,running=True`
 
 ## Project Structure
