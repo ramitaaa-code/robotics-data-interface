@@ -27,15 +27,15 @@ Telemetry format:
 `battery=98.50,velocity=1.25,running=True`
 
 ## Project Structure
+## Project Structure
 
-robotics_data_interface/
-├── dashboard.py
-├── mock_ros2_node.py
-├── ros_worker.py
-├── csv_logger.py
-├── requirements.txt
-├── README.md
-└── .gitignore
+- `dashboard.py` — PyQt5 dashboard
+- `mock_ros2_node.py` — Simulated ROS 2 robot
+- `ros_worker.py` — ROS 2 background worker
+- `csv_logger.py` — Telemetry CSV logger
+- `requirements.txt` — Project dependencies
+- `README.md` — Project documentation
+- `.gitignore` — Git ignore rules
 
 ## Requirements
 
