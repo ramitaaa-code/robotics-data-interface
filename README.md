@@ -27,7 +27,6 @@ Telemetry format:
 `battery=98.50,velocity=1.25,running=True`
 
 ## Project Structure
-## Project Structure
 
 - `dashboard.py` — PyQt5 dashboard
 - `mock_ros2_node.py` — Simulated ROS 2 robot
